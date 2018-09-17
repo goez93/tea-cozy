@@ -22,6 +22,11 @@ nav {
   display: block;
 }
 
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
 .header {
   display: flex;
   height: 69px;
@@ -39,7 +44,10 @@ nav {
 .logo {
   padding-left: 10px;
   height: 50px;
-  display: block;
+}
+
+.logo img {
+  height: 50px;
 }
 
 .hero {
@@ -120,6 +128,15 @@ nav {
   margin-left: 20px;
 }
 
+.address p {
+  line-height: 2;
+  padding: 20px 0px;
+}
+
+.address h3 {
+  padding-top: 20px;
+}
+
 .locations h2 {
   padding-top: 50px;
 }
@@ -130,9 +147,4 @@ nav {
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 30px;
-}
-
-footer {
-  text-align: left;
-  margin-left: 20px;
 }
