@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+nav {
+  display: block;
+}
+
+.header {
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 25;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: black;
+}
+
+.logo {
+  padding-left: 10px;
+  height: 50px;
+  display: block;
+}
+
+.hero {
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.mission {
+  background-color: black;
+  position: relative;
+  top: 50%;
+  line-height: 2;
+}
+
+.content {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.offering {
+  line-height: 2;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.berry, .spiced, .donuts, .myrtle, .bedford {
+  margin: 10px 15px;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 60px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.downtown, .bayside, .oakdale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.locations h2 {
+  padding-top: 50px;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
